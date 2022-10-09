@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="header1">
+            <div class="logo">
+                <img src="img/newlogo-modified.png">
+            </div>
+            <div class="menu">
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="certificates.html">Certificates</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="#" class="active">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section id="contact-a" class="text-center py-3">
+        <div class="container1">
+            <div class="contact">
+                <div>
+                    <h1>Contact Me</h1>
+                </div>
+                <div class="line"></div>
+                <div class="text">Here is how you can reach me</div>
+            </div>
+            <form onsubmit="event.preventDefault()">
+                <div class="text-fields">
+                    <div class="form-content">
+                        <input type="text" class="text-input name-input" pattern="[a-zA-Z].{2,}"
+                            title="Must be alphbets only,minimum 3 " required>
+                        <label>Name</label>
+                    </div>
+                    <div class="form-content">
+
+                        <input type="text" class="text-input subject-input" required>
+                        <label>Subject</label>
+                    </div>
+                    <div class="form-content">
+
+                        <input type="email" class="text-input email-input" title="Email format must be ___@___.__"
+                            required>
+                        <!-- pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" -->
+                        <label>Email</label>
+                    </div>
+                    <div class="form-content">
+
+                        <input type="text" class="text-input phone-input" title="Exactly 10 digits  " required>
+                        <!-- pattern="[0-9]{10,10}" -->
+                        <label> Phone No</label>
+                    </div>
+
+                    <textarea class="text-input message-input" placeholder="Enter Message" required></textarea>
+
+                </div>
+                <button type="submit" class="btn-dark">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footer1">
+                <div class="homecollege">
+                    <div class="home">
+                        <div>
+                            <h2>HOME</h2>
+                        </div>
+                        <div class="footline"></div>
+                        <div class="foottext">J/802, Maher Homes-3, Opp. Club O7, Club O7 road, Shela, Ahmedabad-380058
+                        </div>
+                    </div>
+                    <div class="college">
+                        <div>
+                            <h2>COLLEGE</h2>
+                        </div>
+                        <div class="footline"></div>
+                        <div class="foottext">Ahmedabad Institute of Technology, Nr. Vasantnagar Township, Gota-Ognaj
+                            Road, Ahmedabad, GUJARAT- 382470
+                        </div>
+                    </div>
+                </div>
+                <div class="navigate">
+                    <div>
+                        <h2>NAVIGATE</h2>
+                    </div>
+                    <div class="footline"></div>
+                    <div class="navigatelinks">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="certificates.html">Certificates</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="project.html">Projects</a></li>
+                        <li><a href="#" class="active">Contact Me</a></li>
+                    </div>
+                </div>
+                <div class="Connectme">
+                    <div class="contact">
+
+                    </div>
+                    <div class="contactme">
+                        <div>
+                            <h2>CONTACT ME</h2>
+                        </div>
+                        <div class="footline"></div>
+                        <div class="contactus">
+                            <div class="number">
+                                <i class="fa-solid fa-phone "></i>
+                                <a href="tel:+91 9825389711">+91 9825389711</a>
+                            </div>
+                            <div class="mail">
+                                <i class="fa-solid fa-envelope"></i>
+                                <a href="mailto:hp206311@gmail.com">hp206311@gmail.com</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="connect">
+                        <div>
+                            <h2>CONNECT WITH ME</h2>
+                        </div>
+                        <div class="footline"></div>
+                        <div class="socialmedia">
+                            <a href="https://www.facebook.com/profile.php?id=100050472337166"><i
+                                    class="fa-brands fa-facebook fa-2x"></i></a>
+                            <a href="https://twitter.com/Patel02Harsh?t=zoSUWDWEEnCVIvwUeQBrzw&s=08"><i
+                                    class="fa-brands fa-twitter fa-2x"></i></i></a>
+                            <a href="https://www.instagram.com/hp206311/"><i
+                                    class="fa-brands fa-instagram fa-2x"></i></a>
+                            <a href="https://www.linkedin.com/in/harsh-patel-b7440a229/"><i
+                                    class="fa-brands fa-linkedin fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer2">
+                <div class="copyrights">
+                    Copyright &copy;2022 All rights reserved with by Harsh Patel
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script>
+        const labels = document.querySelectorAll("label");
+
+        labels.forEach(function (label) {
+            label.innerHTML = label.innerText
+                .split("")
+                .map(function (letter, idx) {
+                    return `<span style='transition-delay:${idx * 80}ms'>${letter}</span>`
+                })
+                .join("");
+        });
+    </script>
+</body>
+
+</html>
